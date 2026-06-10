@@ -1,1 +1,255 @@
-<h1>ingrig_ nicol</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contaminación Ambiental</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7f6;
+    color:#333;
+}
+
+/* NAV */
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#1b5e20;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* PORTADA */
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1618477247222-acbdb0e159b2') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+/* SECCIONES */
+section{
+    padding:80px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+h2{
+    color:#1b5e20;
+    margin-bottom:20px;
+}
+
+/* CARDS */
+.card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* GALERÍA */
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.galeria img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+/* DIAGRAMA */
+.flujo{
+    text-align:center;
+}
+
+.arrow{
+    font-size:25px;
+    color:#1b5e20;
+}
+
+/* CARTEL */
+.poster{
+    background:linear-gradient(135deg,#c8e6c9,#e8f5e9);
+    padding:40px;
+    text-align:center;
+    border-radius:15px;
+    border:2px dashed #1b5e20;
+}
+
+/* FOOTER */
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <div>🌎 Contaminación Ambiental</div>
+    <div>
+        <a href="#info">Información</a>
+        <a href="#imagenes">Imágenes</a>
+        <a href="#flujo">Diagrama</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+</nav>
+
+<!-- PORTADA -->
+<div class="hero">
+    <div>
+        <h1>Contaminación Ambiental</h1>
+        <p>Cuidemos el planeta, es nuestro único hogar 🌿</p>
+    </div>
+</div>
+
+<!-- INFORMACIÓN -->
+<section id="info">
+<h2>🌱 Problemática de la Contaminación Ambiental</h2>
+
+<div class="card">
+La contaminación ambiental es la presencia de sustancias nocivas en el aire, agua y suelo, generadas principalmente por actividades humanas.
+</div>
+
+<div class="card">
+Sus principales causas son la industria, el transporte, la basura y la deforestación, afectando la salud de los seres vivos.
+</div>
+</section>
+
+<!-- IMÁGENES -->
+<section id="imagenes">
+<h2>🌫️ Imágenes de Contaminación Ambiental</h2>
+
+<div class="galeria">
+    <img src="https://images.unsplash.com/photo-1581093588401-11f3d5b0c2d4">
+    <img src="https://images.unsplash.com/photo-1611273426858-4501b1d3f6a4">
+    <img src="https://images.unsplash.com/photo-1594737625785-c6f0c8f9b0c1">
+    <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0c">
+</div>
+</section>
+
+<!-- DIAGRAMA DE FLUJO -->
+<section id="flujo">
+<h2>🔁 Diagrama de Flujo</h2>
+
+<div class="card flujo">
+<strong>CAUSAS</strong><br>
+Industria • Transporte • Basura • Deforestación
+<div class="arrow">⬇️</div>
+
+<strong>PROBLEMA</strong><br>
+Contaminación del aire, agua y suelo
+<div class="arrow">⬇️</div>
+
+<strong>CONSECUENCIAS</strong><br>
+Enfermedades • Cambio climático • Pérdida de biodiversidad
+<div class="arrow">⬇️</div>
+
+<strong>SOLUCIONES</strong><br>
+Reciclaje • Reforestación • Energías limpias
+</div>
+</section>
+
+<!-- CARTEL DIGITAL -->
+<section>
+<h2>🎨 Cartel Digital</h2>
+
+<div class="poster">
+<h3>“El planeta no es desechable”</h3>
+<p>Reduce • Reutiliza • Recicla 🌿</p>
+</div>
+</section>
+
+<!-- SOLUCIONES -->
+<section id="soluciones">
+<h2>🌿 Propuestas de Solución</h2>
+
+<div class="card">✔ Usar transporte público o bicicleta</div>
+<div class="card">✔ Reducir el uso de plásticos</div>
+<div class="card">✔ Reciclar y separar residuos</div>
+<div class="card">✔ Ahorrar agua y energía</div>
+<div class="card">✔ Plantar árboles</div>
+</section>
+
+<!-- REFLEXIÓN -->
+<section>
+<h2>💭 Reflexión Final</h2>
+
+<div class="card">
+La contaminación ambiental es un problema global que requiere la participación de todos.  
+Si cada persona contribuye con pequeñas acciones, podemos lograr un gran cambio para el planeta.
+</div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+<h2>📌 Datos de Contacto</h2>
+
+<div class="card">
+<strong>Nombre:</strong> Ingrid Nicol Rayas Martínez
+</div>
+
+<div class="card">
+<strong>Grupo:</strong> 202
+</div>
+
+<div class="card">
+<strong>Semestre:</strong> 2
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+🌎 Proyecto escolar: Contaminación Ambiental <br>
+Cuidar el planeta es responsabilidad de todos 💚
+</footer>
+
+</body>
+</html>
